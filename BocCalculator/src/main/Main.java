@@ -21,6 +21,7 @@ public class Main {
 			System.out.println("Error loading the file \"items.txt\", close the program an restart to use it");
 		}
 		
-		
 	}
+	
+	
 }
