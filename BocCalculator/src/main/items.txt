@@ -1,29 +1,29 @@
-0 = null
-1 = redHeart
-2 = soulHeart
-3 = blackHeart
-4 = eternalHeart
-5 = goldHeart
-6 = boneHeart
-7 = rottenHeart
-8 = penny
-9 = nickel
-10 = dime
-11 = luckyPenny
-12 = key
-13 = goldenKey
-14 = chargedKey
-15 = bomb
-16 = goldenBomb
-17 = gigaBomb
-18 = microBattery
-19 = lilBattery
-20 = megaBattery
-21 = card
-22 = pill
-23 = rune
-24 = diceShard
-25 = crackedKey
+null
+redHeart
+soulHeart
+blackHeart
+eternalHeart
+goldHeart
+boneHeart
+rottenHeart
+penny
+nickel
+dime
+luckyPenny
+key
+goldenKey
+chargedKey
+bomb
+goldenBomb
+gigaBomb
+microBattery
+lilBattery
+megaBattery
+card
+pill
+rune
+diceShard
+crackedKey
 
  | {{The Bible}}
  | 33
@@ -4791,3 +4791,4 @@
  | {{|8|1|1|12|12|12|15|15}}
  | {{|8|12|15|2|2|2|9|9}}
  | {{|12|12|15|2|2|2|9|22}}
+ |-

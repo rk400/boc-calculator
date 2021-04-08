@@ -19,5 +19,10 @@ public class Recipe {
 		this.components = components;
 	}
 	
+	@Override
+	public String toString() {
+		return "{" + components[0] + ", " + components[1] + ", " + components[2] + ", " + components[3] + ", "
+				+ components[4] + ", " + components[5] + ", " + components[6] + ", " + components[7] + "}";
+	}
 	
 }

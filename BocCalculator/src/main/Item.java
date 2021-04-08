@@ -13,13 +13,19 @@ public class Item {
 		
 		nombre = "";
 		
-		recetas = new Recipe[8];
+		recetas = new Recipe[4];
 	}
 	
 	public Item(int id, String nombre, Recipe[] recetas) {
 		this.id = id;
 		this.nombre = nombre;
 		this.recetas = recetas;
+	}
+	
+	public Item(Item copy) {
+		this.id = copy.id;
+		this.nombre = copy.nombre;
+		this.recetas = copy.recetas;
 	}
 
 	public int getId() {
@@ -42,9 +48,18 @@ public class Item {
 		return recetas;
 	}
 
-	public void setReceta(Recipe[] recetas) {
-		this.recetas = recetas;
+	public void setReceta(Recipe receta, int id) {
+		this.recetas[id] = receta;
 	}
 	
-	
+	@Override
+	public String toString() {
+		String linesPerRecipe = "";
+		for(int i = 0; i < recetas.length; i++) {
+			if(recetas[i] != null) {
+				linesPerRecipe += this.id + " " + this.nombre + " --> " + this.recetas[i].toString() + "\n";
+			}
+		}
+		return linesPerRecipe;
+	}
 }
