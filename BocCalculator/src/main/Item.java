@@ -1,27 +1,25 @@
 package main;
 
-import java.util.Arrays;
-
 public class Item {
 	
 	private int id;
 	
 	private String nombre;
 	
-	private String[] receta;
+	private Recipe[] recetas;
 	
 	public Item() {
 		id = -1;
 		
 		nombre = "";
 		
-		receta = new String[8];
+		recetas = new Recipe[8];
 	}
 	
-	public Item(int id, String nombre, String[] receta) {
+	public Item(int id, String nombre, Recipe[] recetas) {
 		this.id = id;
 		this.nombre = nombre;
-		this.receta = Arrays.copyOf(receta, 8);
+		this.recetas = recetas;
 	}
 
 	public int getId() {
@@ -40,12 +38,12 @@ public class Item {
 		this.nombre = nombre;
 	}
 
-	public String[] getReceta() {
-		return receta;
+	public Recipe[] getReceta() {
+		return recetas;
 	}
 
-	public void setReceta(String[] receta) {
-		this.receta = receta;
+	public void setReceta(Recipe[] recetas) {
+		this.recetas = recetas;
 	}
 	
 	
