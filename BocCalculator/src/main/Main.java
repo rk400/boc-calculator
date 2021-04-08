@@ -10,6 +10,8 @@ public class Main {
 	private static String route = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator + 
 						"items.txt";
 	
+	private static String[] componentNames = new String[26];
+	
 	public static void main(String[] args) {
 		File f = new File(route);
 		

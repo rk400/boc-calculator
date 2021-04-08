@@ -1,21 +1,21 @@
 package main;
 
 public class Recipe {
-	private String[] components;
+	private int[] components;
 
 	public Recipe() {
-		components = new String[8];
+		components = new int[8];
 	}
 	
-	public Recipe(String[] components) {
+	public Recipe(int[] components) {
 		this.components = components;
 	}
 	
-	public String[] getComponents() {
+	public int[] getComponents() {
 		return components;
 	}
 
-	public void setComponents(String[] components) {
+	public void setComponents(int[] components) {
 		this.components = components;
 	}
 	
